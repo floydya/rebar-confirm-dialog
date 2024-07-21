@@ -13,10 +13,8 @@ config.initFromEnv('confirmDialogDefaultShowTime', {
 
 
 declare global {
-    namespace NodeJS {
-        interface ProcessEnv {
-            CONFIRM_DIALOG_DEFAULT_SHOW_TIME: string;
-        }
+    interface ProcessEnv {
+        CONFIRM_DIALOG_DEFAULT_SHOW_TIME: string;
     }
 }
 

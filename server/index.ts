@@ -1,5 +1,6 @@
 import * as alt from 'alt-server';
 import { useRebar } from '@Server/index.js';
+import "./config.js";
 import { useConfirmDialog } from './api.js';
 
 const Rebar = useRebar();
