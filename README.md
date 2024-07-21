@@ -2,6 +2,12 @@
 
 The Confirm Dialog plugin provides a way to display a confirmation dialog and handle the user's response. The plugin also has a timeout feature and the option to trigger a "NO" response on it.
 
+## Installation
+
+1. [Download](https://github.com/floydya/rebar-confirm-dialog/archive/refs/heads/main.zip) the repo.
+2. Put the directory into `src/plugins` folder of your Rebar project.
+3. That's all, folks!
+
 ## Usage
 
 ```typescript
